@@ -202,22 +202,7 @@ void anime_toevoegen()
 		system("CLS");
 		main();
 }
-void keuze(int keuze)
-{
-//	char naam[100];
-	switch(keuze){
-	case 1:	
-		anime_toevoegen();
-		break;
-	case 2:
-		anime_lijst_bekijken();
-		break;
-	case 3:
-		anime_zoeken();
-		break;
-	}
-	
-}
+
 void errorhandling(int keus)
 {
 	
